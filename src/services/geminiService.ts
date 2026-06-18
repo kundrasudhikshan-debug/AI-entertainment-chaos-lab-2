@@ -105,7 +105,7 @@ SCHEMA:
         contents: prompt,
         config: {
           responseMimeType: "application/json",
-          maxOutputTokens: 1000,
+          maxOutputTokens: 5000,
           responseSchema: {
             type: Type.OBJECT,
             properties: {
