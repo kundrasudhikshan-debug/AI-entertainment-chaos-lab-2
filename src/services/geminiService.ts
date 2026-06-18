@@ -15,7 +15,7 @@ Task: Generate a sharp, very short 3-round back-and-forth debate.
 CRITICAL: Keep responses punchy and brief (max 2 sentences each). No intros/outros.`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-flash-latest",
+      model: "gemini-2.5-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
