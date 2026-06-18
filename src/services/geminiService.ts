@@ -49,7 +49,7 @@ Mode: ${mode}
 CRITICAL: Be extremely concise, brutal, and fast. NO long paragraphs. Punchy one-liners only. Brutally roast this resume. Include improvement tips.`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-flash-latest",
+      model: "gemini-2.5-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
